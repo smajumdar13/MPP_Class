@@ -1,0 +1,36 @@
+package Prob3d;
+
+import java.util.ArrayList;
+import java.util.List;
+import Prob3d.Address;
+import Prob3d.Condominium;
+import Prob3d.House;
+import Prob3d.Trailer;
+import Prob3d.Property;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Property lst = new Property();
+		
+//		Property[] list = {new  House(10000, new Address("Str1", "Ct1", "St1", 11335)),
+//						new Condominium(3, new Address("Str2", "Ct2", "St2", 12343)),
+//						new Trailer(new Address("Str3", "Ct3", "St3", 12345))};
+		
+		
+		lst.add(new House(10000, new Address("Str1", "Ct1", "St1", 11335)));
+		lst.add(new Condominium(3, new Address("Str2", "Ct2", "St2", 12343)));
+		lst.add(new Trailer(new Address("Str3", "Ct3", "St3", 12345)));
+		
+		
+		for(Property p: list) {
+			System.out.println(p);
+		}
+		
+		
+		list.
+		
+
+	}
+
+}

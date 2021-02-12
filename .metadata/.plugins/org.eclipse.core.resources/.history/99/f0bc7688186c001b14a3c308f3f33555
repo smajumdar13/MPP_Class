@@ -1,0 +1,10 @@
+package Prob3b;
+
+public class Building {
+	private Landlord owner;
+	
+	
+	public Building() {
+		
+	}
+}

@@ -1,0 +1,12 @@
+package Prob2b;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Student st = new Student("Sam");
+		st.getReport().addReport("Grade A");
+//		System.out.println(st.getReport().getGrade());
+		System.out.println(st.getName());
+	}
+
+}

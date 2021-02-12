@@ -1,0 +1,24 @@
+package Prob2B;
+
+public class O {
+	private String name;
+	private OrderLine report;
+	
+	public Student(String name) {
+		this.name = name;
+		report = new OrderLine(this);	
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public OrderLine getGrade() {
+		return report;
+	}
+
+	@Override
+	public String toString() {
+		return "Name: " + name + ". Grade: " + report;
+	}
+}

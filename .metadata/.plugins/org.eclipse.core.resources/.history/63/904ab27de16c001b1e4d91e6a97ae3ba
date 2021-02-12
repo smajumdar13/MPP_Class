@@ -1,0 +1,11 @@
+package Lesson4.ProbC;
+
+abstract class Employee {
+	private int empId;
+	
+	Employee(int id){
+		empId = id;
+	}
+	
+	abstract double 
+}

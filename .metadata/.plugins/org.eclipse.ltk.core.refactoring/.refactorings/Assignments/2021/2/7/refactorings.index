@@ -1,0 +1,41 @@
+1612999969195	Delete element
+1613001240131	Delete element
+1613001247970	Delete element
+1613001264792	Rename type 'Item'
+1613001275167	Rename type 'ShoppingCart'
+1613001284617	Rename type 'Customer'
+1613002181672	Encapsulate field 'rent'
+1613010762833	Delete element
+1613010984517	Rename package 'Prob2b'
+1613011000184	Copy package
+1613011045971	Rename compilation unit 'Student.java'
+1613011055952	Rename type 'GradeReport'
+1613014846504	Rename type 'Landlord'
+1613021018676	Encapsulate field 'address'
+1613050561761	Delete element
+1613053352758	Rename package 'Prob3b'
+1613053418715	Move compilation units
+1613053470314	Rename package 'Lesson2.Prob2'
+1613053480229	Move compilation units
+1613053544808	Move compilation units
+1613053547914	Delete element
+1613053552088	Delete element
+1613053554991	Delete element
+1613053564729	Copy compilation units
+1613059544641	Rename package 'Prob3b1'
+1613059638224	Copy package
+1613059644608	Delete element
+1613060379493	Rename package 'Quiz.Quiz2'
+1613061980223	Rename package 'Quiz2'
+1613062021948	Move compilation units
+1613062315646	Rename type 'Main'
+1613063794422	Rename type 'Person'
+1613094423649	Delete element
+1613095204602	Rename type 'Condominium'
+1613096436966	Rename package 'Prob3d'
+1613096629922	Rename package 'Lesson4.ProbE'
+1613096681046	Rename package 'Lesson4.prob4E'
+1613096707912	Rename package 'Lesson4.prob4E.launch'
+1613099747773	Rename type 'Hourly'
+1613099757590	Rename type 'Salaried'
+1613099764185	Rename type 'Commissioned'

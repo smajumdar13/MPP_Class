@@ -1,0 +1,35 @@
+package Prob2B;
+import java.util.*;
+
+public class OrderLine {
+	private String item;
+	private Order order;
+	
+	public OrderLine(String item) {
+		this.item = item;
+	}
+	
+	public void addItem(String i) {
+		this.item = i;
+	}
+	
+	OrderLine(Order ord) {
+		this.order = ord;
+	}
+	
+	public String getItem() {
+		return item;
+	}
+	
+	public Order getOrder() {
+		return order;
+	}
+	
+	public void setOrder(Order ord) {
+		this.order = ord;
+	}
+	
+	public String toString() {
+		return item;
+	}
+}

@@ -1,0 +1,34 @@
+package Quiz2;
+
+import java.time.LocalDate;
+
+public class Person {
+	private String customerID;
+	private String name;
+	private LocalDate dateOfBirth;
+	private Account account;
+	
+	Person(String cusID, String n, LocalDate dob, Account ac){
+		customerID = cusID;
+		name = n;
+		dateOfBirth = dob;
+//		this.account = new Account(ac.getAccountNumber(), ac.getBalance());
+		account = ac;
+	}
+	
+	public String getCustomerID() {
+		return customerID;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public LocalDate getDOB() {
+		return dateOfBirth;
+	}
+	
+	public String toString() {
+		return customerID + ", " + name + ", " + dateOfBirth +", " +  account;
+	}
+}

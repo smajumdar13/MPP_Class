@@ -1,0 +1,21 @@
+package Prob3d;
+
+import java.util.List;
+
+abstract class Property {
+	private Address address;
+	
+	Property(Address add){
+		address = add;
+	}
+	
+	public Address getAddress() {
+		return address;
+	}
+	
+	public String toString() {
+		return address.toString();
+	}
+
+	abstract double computeRent();
+}

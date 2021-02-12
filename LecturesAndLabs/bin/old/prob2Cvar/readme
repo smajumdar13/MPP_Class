@@ -1,0 +1,4 @@
+This is another implementation of many to many.
+Student and Section can be instantiated independently.
+Support methods for construction have been
+set to package level visibility.

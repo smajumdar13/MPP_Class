@@ -1,0 +1,19 @@
+package Prob3d;
+
+public class Condominium extends Property {
+	private double numberOfFloors;
+	private Address address;
+	
+	Condominium(double floors, Address add) {
+		address = add;
+		numberOfFloors = floors;
+	}
+	
+	public double getNumberOfFloors() {
+		return numberOfFloors;
+	}
+
+	double computeRent() {
+		return 400 * numberOfFloors;
+	}
+}

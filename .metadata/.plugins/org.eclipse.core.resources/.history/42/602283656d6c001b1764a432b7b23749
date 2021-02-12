@@ -1,0 +1,5 @@
+package Prob3d;
+
+public enum Rental {
+
+}

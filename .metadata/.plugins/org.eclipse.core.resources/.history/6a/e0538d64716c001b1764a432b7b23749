@@ -1,0 +1,27 @@
+package Prob3A;
+
+public class Cylinder extends Circle{
+	private double radius;
+	private double height;
+	
+	public Cylinder(double radius, double height) {
+		super(radius);
+		this.height = height;
+	}
+	
+	public double getRadius() {
+		return radius;
+	}
+	
+	public double getHeight() {
+		return height;
+	}
+	
+	public double computeVolume() {
+		return computeArea() * height;
+	}
+	
+	public String toString() {
+		return "Volume is " + computeVolume();
+	}
+}

@@ -1,0 +1,17 @@
+package Prob3b;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Apartment {
+	private double rent;
+	
+	public Apartment(double rent) {
+		this.rent = rent;
+	}
+	
+	public double getRent() {
+		return rent;
+	}
+	
+}

@@ -1,0 +1,35 @@
+package Prob3d;
+
+abstract class Property {
+	private Address address;
+//	private double rent;
+	private double totalRent;
+	
+	public Property(Address address) {
+		this.address = address;
+	}
+	
+//	public static double getRent() {
+//		return rent;
+//	}
+	
+//	public void setRent(double rent) {
+//		this.rent = rent;
+//	}
+	
+	public Address getAddress() {
+		return address;
+	}
+	
+	abstract double computeRent();
+	
+	public double totalRent() {
+		totalRent=0.0;
+		totalRent += computeRent();
+		return totalRent;
+	}
+	
+	public String toString() {
+		return Double.toString(totalRent);
+	}
+}

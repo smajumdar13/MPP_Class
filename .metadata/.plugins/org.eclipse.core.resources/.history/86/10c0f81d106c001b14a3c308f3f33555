@@ -1,0 +1,16 @@
+package Prob2b;
+
+import lesson2.lecture.bidir.onetoone.Customer;
+import lesson2.lecture.bidir.onetoone.Item;
+import lesson2.lecture.bidir.onetoone.ShoppingCart;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Student st = new Student("Bob");
+		st.getGrades().addGrade("A");
+		System.out.println(st);
+		
+	}
+
+}

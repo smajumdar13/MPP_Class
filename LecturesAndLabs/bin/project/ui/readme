@@ -1,0 +1,12 @@
+The CheckoutRecordView class is created
+to support creation of a TableView 
+in MemberWindow. It provides fields
+that can be used in the table, whereas
+the CheckoutRecord itself does not.
+It should be considered a UI-dependent class
+and belongs in the ui package
+
+The requirements are those described in June 2015
+MPP.
+
+See Project4 for latest version

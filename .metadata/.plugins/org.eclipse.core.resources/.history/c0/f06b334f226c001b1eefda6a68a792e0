@@ -1,0 +1,19 @@
+package Prob3d;
+
+public class Trailer extends Property {
+	private double lotSize;
+	
+	public Trailer(double rent, Address address) {
+		super(rent, address);
+	}
+	
+	@Override
+	double computeRent() {
+		return 500;
+	}
+	
+	@Override
+	public String toString() {
+		return Double.toString(computeRent());
+	}
+}

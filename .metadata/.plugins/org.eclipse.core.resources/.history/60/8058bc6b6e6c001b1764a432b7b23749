@@ -1,0 +1,38 @@
+package Prob3d;
+
+import java.util.List;
+
+public class Property {
+	private List<Rental> rentals;
+	private Address address;
+	private double rent;
+	
+	
+	public Property(List<Rental> rentals) {
+		this.rentals = rentals;
+	}
+	
+	double computeRent() {
+		double computeRent = 0.0;
+		for(Rental r: rentals) {
+			computeRent += r.computeRent();
+		}
+		return computeRent;		
+	}
+	
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+
+	public double getRent() {
+		return rent;
+	}
+	
+	public String toString() {
+		return Double.toString(computeRent()) + " " + Address.getAddress();
+	}
+}

@@ -1,0 +1,28 @@
+package Prob3d;
+
+public class Condominium extends Property {
+	private double numberOfFloors;
+	
+	public Condominium(double numberOfFloors, Address address) {
+		super(address);
+		this.numberOfFloors = numberOfFloors;
+	}
+	
+	public double getNumberOfFloors() {
+		return numberOfFloors;
+	}
+	
+//	public void setNumberOfFloors(double numberOfFloors) {
+//		this.numberOfFloors = numberOfFloors;
+//	}
+	
+	@Override
+	public double getRent() {
+		return 400*numberOfFloors;
+	}
+	
+//	@Override
+//	public String toString() {
+//		return Double.toString(computeRent());
+//	}
+}

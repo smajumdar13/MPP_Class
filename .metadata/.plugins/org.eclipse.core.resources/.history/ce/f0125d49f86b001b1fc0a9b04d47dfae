@@ -1,0 +1,22 @@
+package Prob2b;
+
+public class Grade {
+	private Student student;
+	private Grade grade;
+	
+	public void addReport(String report) {
+		this.report = report;
+	}
+
+	Grade(Student st) {
+		this.student = st;
+	}
+	
+	public Student getStudent() {
+		return student;
+	}
+	
+	public Grade getGrade() {
+		return grade;
+	}
+}

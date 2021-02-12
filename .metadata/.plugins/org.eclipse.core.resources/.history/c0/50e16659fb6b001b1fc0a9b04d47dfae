@@ -1,0 +1,21 @@
+package Prob2b;
+import java.util.*;
+
+public class GradeReport {
+	private Customer owner;
+	private List<Grade> items = new ArrayList<>();;
+	public void addItem(Grade item) {
+		items.add(item);
+	}
+	//package level
+	GradeReport(Customer cust) {
+		owner = cust;
+	}
+	public List<Grade> getItems() {
+		return items;
+	}
+	public Customer getOwner() {
+		return owner;
+	}
+	
+}

@@ -1,0 +1,17 @@
+package Prob3d;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		List<Property> lst = new ArrayList<Property>();
+		
+		lst.add(new House(575, new Address("Str", "Ct", "St", 75587)));
+		lst.add(new Condominium(450, new Address("Str", "Ct", "St", 75587)));
+		lst.add(new Trailer(new Address("Str", "Ct", "St", 75587)));
+
+	}
+
+}

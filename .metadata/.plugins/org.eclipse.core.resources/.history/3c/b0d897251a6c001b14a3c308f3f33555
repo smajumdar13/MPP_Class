@@ -1,0 +1,17 @@
+package Prob3b;
+
+public class Landlord {
+	private Building[] buildings;
+	
+	public Landlord(Building[] buildings) {
+		this.buildings = buildings;
+	}
+	
+	public double totalProfit() {
+		double totalProfit = 0.0;
+		for(Building b: buildings) {
+			totalProfit += b.sumProfit();
+		}
+		return totalProfit;
+	}
+}

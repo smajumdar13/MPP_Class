@@ -1,0 +1,5 @@
+This solution to many to many involves an association
+class. Relationship is owned by Student, which means
+that Sections are obtained through the Student. See Main class.
+To support proper use, Section constructor has been set
+to package level visibiltiy
