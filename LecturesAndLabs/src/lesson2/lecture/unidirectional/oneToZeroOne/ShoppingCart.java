@@ -8,20 +8,26 @@ public class ShoppingCart {
 	public void addItem(Item item) {
 		items.add(item);
 	}
-
+	
 	/** Use a factory method for construction */
-	private ShoppingCart(Customer cust) {
+	public ShoppingCart(Customer cust) {
 		items = new ArrayList<Item>();
 		cust.setCart(this);
 	}
 	public static ShoppingCart newShoppingCart(
 			                       Customer cust) {
 		if (cust == null)
-			throw new NullPointerException(
-					              "Null customer");		
+			throw new NullPointerException("Null customer");		
 		return new ShoppingCart(cust);
 	}
 	public List<Item> getItems() {
 		return items;
+	}
+	public String toString() {
+		String s="";
+		for(Item i: items) {
+			s += i + " ";
+		}
+		return s;
 	}
 }

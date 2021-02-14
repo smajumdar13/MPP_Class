@@ -14,8 +14,8 @@ public class SalariedEmp extends Employee {
 		return salary;
 	}
 	
-	@Override
-	public String toString() {
-		return "Today: "+ LocalDate.now()+ "  Emp ID: " + super.toString()+ "  Compensation: " + Double.toString(salary);
-	}
+//	@Override
+//	public String toString() {
+//		return "Today: "+ LocalDate.now()+ "  Emp ID: " + super.toString()+ "  Compensation: " + Double.toString(salary);
+//	}
 }

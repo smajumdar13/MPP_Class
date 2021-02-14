@@ -23,6 +23,6 @@ abstract class Employee {
 	}
 	
 	public String toString() {
-		return Integer.toString(empId);
+		return "Emp ID: " + empId;
 	}
 }

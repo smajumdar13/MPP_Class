@@ -4,7 +4,7 @@
 		<item value="Misc"/>
 	</list>
 	<section name="ImportExportAction">
-		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.e4.ui.importer.wizard"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>
@@ -14,6 +14,14 @@
 		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
 			<item value="C:\Users\Majumdar7356\Downloads\Compressed\MPP Learning Materials-20210211T003334Z-001.zip"/>
 			<item value="C:\Users\Majumdar7356\Downloads\Compressed\mpp.assignment.lab.all.zip"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="true"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Majumdar7356\Downloads\Compressed\mpp.assignment.lab.all\mpp.assignment.lab2"/>
+			<item value="C:\Users\Majumdar7356\Downloads\Compressed\mpp.assignment.lab.all"/>
 		</list>
 	</section>
 </section>

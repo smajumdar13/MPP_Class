@@ -6,5 +6,6 @@
 	<classpathentry kind="lib" path="C:/Users/Majumdar7356/Desktop/MIU/CS401-Okalu/workspace-eclipse-for-students/MPP_Class/LecturesAndLabs/external-libs/derbyclient.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/DataAccess"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_281"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -22,9 +22,9 @@ public class HourlyEmp extends Employee {
 		return calcGrossPay;
 	}
 	
-	@Override
-	public String toString() {
-		return "Today: "+ LocalDate.now()+ "  Emp ID: " + super.toString()+ "  Compensation: " + 
-				Double.toString(calcGrossPay(LocalDate.now().getMonthValue(), LocalDate.now().getYear()));
-	}
+//	@Override
+//	public String toString() {
+//		return "Today: "+ LocalDate.now()+ "  Emp ID: " + super.toString()+ "  Compensation: " + 
+//				Double.toString(calcGrossPay(LocalDate.now().getMonthValue(), LocalDate.now().getYear()));
+//	}
 }

@@ -16,6 +16,5 @@ public class ShoppingCart {
 	}
 	public Customer getOwner() {
 		return owner;
-	}
-	
+	}	
 }

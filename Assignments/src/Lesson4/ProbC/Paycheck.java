@@ -21,8 +21,8 @@ public final class Paycheck {
 		System.out.println(this);
 	}
 	
-	public String toString() {
-		return "GrossPay: " + String.format("%.2f",	grossPay) + 
-				". After Taxes: " + String.format("%.2f", getNetPay());
-	}
+//	public String toString() {
+//		return "Gross Pay: " + String.format("%.2f",	grossPay) + 
+//				". Net Pay: " + String.format("%.2f", getNetPay());
+//	}
 }

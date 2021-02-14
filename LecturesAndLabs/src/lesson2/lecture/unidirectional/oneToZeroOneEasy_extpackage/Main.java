@@ -9,10 +9,5 @@ public class Main {
 		cust.getCart().addItem(new Item("Shirt"));
 		System.out.println(
 			cust.getCart().getItems());
-		
-		
 	}
-	
 }
-
-		

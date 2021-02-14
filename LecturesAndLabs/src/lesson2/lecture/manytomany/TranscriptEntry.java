@@ -1,3 +1,4 @@
+
 package lesson2.lecture.manytomany;
 
 public class TranscriptEntry {

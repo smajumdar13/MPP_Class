@@ -7,6 +7,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Majumdar7356\Downloads\Compressed\mpp.assignment.lab.all"/>
 			<item value="D:\oak\MyMUM\teaching\courses\CS401 - MPP\2020\202009\workspaces\workspace-eclipse-for-students\InClassExercises"/>
 			<item value="D:\oak\MyMUM\teaching\courses\CS401 - MPP\2020\202009\workspaces\workspace-eclipse-for-students\JavaLibrary"/>
 			<item value="D:\oak\MyMUM\teaching\courses\CS401 - MPP\2020\202009\workspaces\workspace-eclipse-for-students\Project4_Students"/>
@@ -36,6 +37,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Majumdar7356\Downloads\Compressed\mpp.assignment.lab.all"/>
 			<item value="C:\Users\Majumdar7356\Downloads\Compressed\mpp.assignment.lab.all.zip"/>
 			<item value="C:\Users\Majumdar7356\Desktop\MIU\MPP Learning Materials\MPP lab"/>
 			<item value="C:\Users\Majumdar7356\Desktop\MIU\MPP Learning Materials\Solutions-for-LabHomework-Assignments"/>
