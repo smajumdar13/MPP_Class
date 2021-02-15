@@ -6,9 +6,11 @@
     <fullyQualifiedTypeName name="Prob3d.Trailer"/>
     <fullyQualifiedTypeName name="Prob3d.Property"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="Lesson4.ProbC.HourlyEmp"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="Tries.EmpSal.Address"/>
+    <fullyQualifiedTypeName name="Tries.BankAccount.CheckingAccount"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

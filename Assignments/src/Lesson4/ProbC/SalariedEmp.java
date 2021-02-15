@@ -1,7 +1,5 @@
 package Lesson4.ProbC;
 
-import java.time.LocalDate;
-
 public class SalariedEmp extends Employee {
 	private double salary;
 	

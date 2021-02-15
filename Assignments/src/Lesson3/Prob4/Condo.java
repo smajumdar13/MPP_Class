@@ -20,4 +20,8 @@ public class Condo extends Property {
 	double computeRent() {
 		return 400 * numberOfFloors;
 	}
+
+	public Address getAddress() {
+		return address;
+	}
 }

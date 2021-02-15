@@ -20,4 +20,8 @@ public class House extends Property {
 	public double computeRent() {
 		return 0.1*lotSize;
 	}
+
+	public Address getAddress() {
+		return address;
+	}
 }

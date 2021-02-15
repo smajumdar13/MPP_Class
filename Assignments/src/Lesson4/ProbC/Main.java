@@ -1,7 +1,6 @@
 package Lesson4.ProbC;
 
 import java.time.LocalDate;
-import java.util.List;
 
 public class Main {
 
@@ -21,7 +20,8 @@ public class Main {
 		Employee[] e = {comm1, hE1, hE2, sE1, sE2};
 		
 		for(Employee emp: e) {
-			System.out.println(emp);
+			System.out.print(emp+"    "); 
+			emp.print();
 		}
 //		
 //		var Empl = List.of(new HourlyEmp(12448, 25.0, 40), new HourlyEmp(12652, 27.0, 32), 

@@ -1,7 +1,7 @@
 AbstractTextEditor.Color.Background=28,31,34
 AbstractTextEditor.Color.Background.SystemDefault=false
 AbstractTextEditor.Color.FindScope=188,173,173
-AbstractTextEditor.Color.Foreground=246,243,232
+AbstractTextEditor.Color.Foreground=226,226,226
 AbstractTextEditor.Color.Foreground.SystemDefault=false
 AbstractTextEditor.Color.SelectionBackground=26,95,140
 AbstractTextEditor.Color.SelectionBackground.SystemDefault=false

@@ -29,11 +29,12 @@ public class Address {
 		return zip;
 	}
 	
-	public String getAddress() {
-		return street + " " + city + " " + state + " " + zip;
-	}
+//	public String getAddress() {
+//		return street + " " + city + " " + state + " " + zip;
+//	}
 	
 	public String toString() {
-		return getAddress();
+//		return getAddress();
+		return street + " " + city + " " + state + " " + zip;
 	}
 }

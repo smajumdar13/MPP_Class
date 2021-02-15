@@ -13,16 +13,17 @@ public final class Paycheck {
 	}
 	
 	public double getNetPay() {
-		double g = grossPay;
-		return g - (fica*g + state*g + local*g + medicare*g + socialSecurity*g);
+//		double g = grossPay;
+		return grossPay - (fica + state + local + medicare + socialSecurity)*grossPay;
 	}
 	
 	public void print() {
 		System.out.println(this);
+//		System.out.println(toString());
 	}
 	
-//	public String toString() {
-//		return "Gross Pay: " + String.format("%.2f",	grossPay) + 
-//				". Net Pay: " + String.format("%.2f", getNetPay());
-//	}
+	public String toString() {
+		return "Gross Pay: " + String.format("%8.2f",	grossPay) + 
+				"    Net Pay: " + String.format("%8.2f", getNetPay());
+	}
 }

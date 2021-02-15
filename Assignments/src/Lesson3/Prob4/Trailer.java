@@ -15,4 +15,8 @@ public class Trailer extends Property {
 	public double computeRent() {
 		return rent;
 	}
+
+	public Address getAddress() {
+		return address;
+	}
 }
