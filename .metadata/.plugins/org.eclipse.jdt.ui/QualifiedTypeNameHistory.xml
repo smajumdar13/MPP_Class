@@ -11,8 +11,11 @@
     <fullyQualifiedTypeName name="Tries.EmpSal.Address"/>
     <fullyQualifiedTypeName name="Tries.BankAccount.CheckingAccount"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="Tries.ComputerFactoryTest.ComputerType"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="edu.miu.cs.cs401.midtermp2.srmapp.model.Supplier"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="Tries.ComputerFactoryTest.ComputerType"/>
+    <fullyQualifiedTypeName name="javafx.scene.DepthTest"/>
+    <fullyQualifiedTypeName name="edu.miu.cs.cs401.midtermp2.casapp.Department"/>
 </qualifiedTypeNameHistroy>
