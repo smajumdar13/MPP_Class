@@ -1,13 +1,12 @@
 package lesson7.labs.prob2;
 
-public final class Rectangle implements ClosedCurve {
-	final private double width;
-	final private double length;
+public final class EquilateralTriangle implements ClosedCurve {
+	final private double side;
 	
 	@Override
 	public double computePerimeter() {
-		double perimeter = 2*(width + length);
-		return perimeter;
+		double area =  width * length;
+		return area;
 	}
 	public Rectangle(double width, double length) {	
 		this.width = width;

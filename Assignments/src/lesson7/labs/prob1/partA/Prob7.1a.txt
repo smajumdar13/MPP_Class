@@ -1,0 +1,1 @@
+Java's ArrayList extends AbstractList<E>, and implements List<E>, Iterable<E>, Collection<E>, Cloneable, RandomAccess, Serializable.

@@ -1,0 +1,10 @@
+The EmployeeInfo class uses HashMap to compare and find duplicates, 
+but it does not override hashCode(), and therefore, it calls hashCode 
+from Object class, due to which the result is not correct. On overriding
+hashCode in the Employee class, the correct answer will output.
+
+@Override 
+public int hashCode() {
+	return Objects.hash(this.name,this.salary);
+}
+ 

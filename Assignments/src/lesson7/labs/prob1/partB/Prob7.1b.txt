@@ -1,0 +1,9 @@
+The answer is turning out false because the @Override Equals in the Employee class is incomplete, and the class calls Equals method from the Object class instead of overriding from Employee class. On overriding the equals with appropriate Equals method, the correct answer can be achieved.
+
+@Override
+public boolean equals(Object ob) {
+	if(ob == null) return false;
+	if(!(ob instanceof Employee)) return false;
+	Employee emp = (Employee)ob;
+	return emp.name.equals(name) && emp.salary == salary;
+}
