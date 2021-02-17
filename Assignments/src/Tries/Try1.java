@@ -11,5 +11,9 @@ public class Try1 {
 		
 		System.out.println(s1==s2);
 		System.out.println(s1.equals(s2));
+		
+		String s = "Hello.";
+		int i = s.indexOf('e');
+		System.out.println(i);
 	}
 }

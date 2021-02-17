@@ -11,5 +11,5 @@ public interface StringList {
 	
 	/** Gets the i_th string in the list */
 	public String get(int i);
-	
+
 }
