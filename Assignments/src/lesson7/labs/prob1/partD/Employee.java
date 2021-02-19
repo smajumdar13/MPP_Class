@@ -46,7 +46,8 @@ public class Employee {
 		int salaryHash = (int) (longval ^ (longval >>> 32));
 		result += 31 * result + name.hashCode();
 		result += 31 * result + salaryHash;
-		result += 31 * result + (visited ? 1 : 0);
+		result += 31 * result + (visited ? 1 : 0); // visited changes giving wrong result
 		return result;
+		
 	}
 }

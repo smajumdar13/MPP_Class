@@ -33,6 +33,7 @@ public class Supplier {
 	public void print() {
 		for(Product pr: products) {
 			System.out.println(supplierId+", " + supplierName+", "+pr);
+//			System.out.println(String.format("%10s %12s %50s", supplierId, supplierName, pr));
 		}
 	}
 	

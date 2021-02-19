@@ -1,6 +1,0 @@
-package Lesson4.ProbC;
-
-public class CommissionedEmp {
-	private double commission;
-	private double 
-}

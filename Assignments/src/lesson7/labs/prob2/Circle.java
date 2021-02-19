@@ -5,6 +5,7 @@ public final class Circle implements ClosedCurve {
 	
 	@Override
 	public double computePerimeter() {
+		System.out.println("Using closed curve");
 		return 2 * Math.PI * radius; 
 	}
 	public Circle(double radius) {

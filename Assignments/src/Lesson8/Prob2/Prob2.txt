@@ -1,0 +1,4 @@
+A. If two employees have the same name, the return value of compare is 0(zero), but it
+   cannot always be true, because one Employee object cannot have different salaries.
+   In the EmployeeInfo.java file, one Employee object Joe has salary 100,000 and another
+   Employee object with the same name ("Joe") has salary 200,000.

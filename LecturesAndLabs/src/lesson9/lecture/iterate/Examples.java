@@ -16,6 +16,14 @@ public class Examples {
 		stream1.limit(5).collect(Collectors.toList()).forEach(System.out::print);
 		System.out.println("\n");
 		stream2.limit(5).collect(Collectors.toList()).forEach(System.out::print);
+		System.out.println();
+		Stream<Integer> stream3 =
+				Stream.iterate(1, n -> n + 2);
+		stream3.limit(20).collect(Collectors.toList()).forEach(System.out::print);
+		System.out.println("\n");
+		
+		Stream<Integer> stream4 =
+				Stream.iterate(1, n -> n + 2);
+		stream4.skip(4).limit(4).collect(Collectors.toList()).forEach(System.out::print);
 	}
-
 }

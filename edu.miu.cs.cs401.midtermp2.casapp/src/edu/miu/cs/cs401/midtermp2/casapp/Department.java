@@ -29,7 +29,7 @@ public abstract class Department {
 	public String nextMessage() throws EmptyQueueException {
 		String s = "";
 		try {
-			s = this.queue.dequeue();
+			s = this.queue.dequeue()+"\n";
 		} catch (EmptyQueueException e) {
 			e.getMessage();
 		}

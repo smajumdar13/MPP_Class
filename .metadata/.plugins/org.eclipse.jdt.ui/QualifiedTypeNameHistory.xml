@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="Prob3d.Property"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="Lesson4.ProbC.HourlyEmp"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="Tries.EmpSal.Address"/>
     <fullyQualifiedTypeName name="Tries.BankAccount.CheckingAccount"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
@@ -15,8 +14,6 @@
     <fullyQualifiedTypeName name="edu.miu.cs.cs401.midtermp2.srmapp.model.Supplier"/>
     <fullyQualifiedTypeName name="javafx.scene.DepthTest"/>
     <fullyQualifiedTypeName name="edu.miu.cs.cs401.midtermp2.casapp.Department"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="Lesson4.ProbE.CheckingAccount"/>
     <fullyQualifiedTypeName name="Lesson4.ProbE.Employee"/>
     <fullyQualifiedTypeName name="Lesson4.ProbE.Admin"/>
@@ -31,4 +28,16 @@
     <fullyQualifiedTypeName name="Lesson5.prob3.CustOrderFactory"/>
     <fullyQualifiedTypeName name="Lesson5.prob3.Item"/>
     <fullyQualifiedTypeName name="java.util.function.Consumer"/>
+    <fullyQualifiedTypeName name="lesson7.labs.prob3.ForEachExample"/>
+    <fullyQualifiedTypeName name="java.util.Objects"/>
+    <fullyQualifiedTypeName name="java.util.function.Supplier"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="randomNumber"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

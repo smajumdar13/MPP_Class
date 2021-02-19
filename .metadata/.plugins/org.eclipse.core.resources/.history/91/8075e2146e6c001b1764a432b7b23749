@@ -1,7 +1,0 @@
-package Prob3d;
-
-public enum Rental {
-	HOUSE,
-	CONDOMINIUM,
-	TRAILER
-}

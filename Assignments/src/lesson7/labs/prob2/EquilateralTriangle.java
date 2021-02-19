@@ -1,22 +1,23 @@
 package lesson7.labs.prob2;
 
-public final class EquilateralTriangle implements ClosedCurve {
+public final class EquilateralTriangle implements Polygon {
 	final private double side;
 	
-	@Override
-	public double computePerimeter() {
-		double area =  width * length;
-		return area;
-	}
-	public Rectangle(double width, double length) {	
-		this.width = width;
-		this.length = length;
+//	@Override
+//	public double computePerimeter() {
+//		double perimeter =  3 * side;
+//		return perimeter;
+//	}
+	public EquilateralTriangle(double side) {	
+		this.side = side;
 	}
 	
-	public double getWidth() {
-		return width;
+	public double getSide() {
+		return side;
 	}
-	public double getLength() {
-		return length;
+	@Override
+	public double[] getLengths() {
+		double[] len = new double[] {side};
+		return len;
 	}
 }

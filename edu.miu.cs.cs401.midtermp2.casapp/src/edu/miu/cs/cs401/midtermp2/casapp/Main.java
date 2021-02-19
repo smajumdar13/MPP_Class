@@ -43,19 +43,18 @@ public class Main {
 		};
 		
 		//uncomment when you are ready
-		
 		loadQueue(h, bill);
 		loadQueue(h, mark);
 		loadQueue(h, sal);
 		Admin a = new Admin(new Department[]{bill,mark,sal});
 		System.out.println(a.hourlyCompanyMessage());
 		System.out.println(a.hourlyCompanyMessage());
+//		System.out.println(a.hourlyCompanyMessage());
+//		System.out.println(a.hourlyCompanyMessage());
 	}
 	
 	private static void loadQueue(HashMap<Object, List<String>> h, Department d) {		
 		StringQueue queue = d.getQueue();
 		queue.addAll(h.get(d));
-		
 	}
-
 }
