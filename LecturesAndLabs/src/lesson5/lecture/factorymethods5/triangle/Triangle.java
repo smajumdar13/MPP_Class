@@ -15,7 +15,7 @@ public final class Triangle {
 	private double a, b, c;   //the sides
 	private double A, B, C;   //the angles
 	
-	private Triangle() {} //factory method implemented here
+	private Triangle() {}
 	
 	/** Uses Law of Cosines to compute angles */
 	public static Triangle fromThreeSides(double side1, double side2, double side3) {

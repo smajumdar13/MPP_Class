@@ -1,43 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Prob3d.Address"/>
-    <fullyQualifiedTypeName name="Prob3d.Condominium"/>
-    <fullyQualifiedTypeName name="Prob3d.House"/>
-    <fullyQualifiedTypeName name="Prob3d.Trailer"/>
-    <fullyQualifiedTypeName name="Prob3d.Property"/>
-    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
-    <fullyQualifiedTypeName name="Lesson4.ProbC.HourlyEmp"/>
-    <fullyQualifiedTypeName name="Tries.EmpSal.Address"/>
-    <fullyQualifiedTypeName name="Tries.BankAccount.CheckingAccount"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="Tries.ComputerFactoryTest.ComputerType"/>
-    <fullyQualifiedTypeName name="edu.miu.cs.cs401.midtermp2.srmapp.model.Supplier"/>
-    <fullyQualifiedTypeName name="javafx.scene.DepthTest"/>
-    <fullyQualifiedTypeName name="edu.miu.cs.cs401.midtermp2.casapp.Department"/>
-    <fullyQualifiedTypeName name="Lesson4.ProbE.CheckingAccount"/>
-    <fullyQualifiedTypeName name="Lesson4.ProbE.Employee"/>
-    <fullyQualifiedTypeName name="Lesson4.ProbE.Admin"/>
-    <fullyQualifiedTypeName name="Lesson5.prob1.gui.CDWindow"/>
-    <fullyQualifiedTypeName name="Lesson5.prob1.gui.BookWindow"/>
-    <fullyQualifiedTypeName name="Tries.New.gui.BookWindow"/>
-    <fullyQualifiedTypeName name="Tries.New.gui.CDWindow"/>
-    <fullyQualifiedTypeName name="Tries.New.rulesets.RuleSetFactory"/>
-    <fullyQualifiedTypeName name="Tries.New.rulesets.RuleException"/>
-    <fullyQualifiedTypeName name="Lesson5.prob1.rulesets.BookRuleSet"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="Lesson5.prob3.CustOrderFactory"/>
-    <fullyQualifiedTypeName name="Lesson5.prob3.Item"/>
-    <fullyQualifiedTypeName name="java.util.function.Consumer"/>
-    <fullyQualifiedTypeName name="lesson7.labs.prob3.ForEachExample"/>
-    <fullyQualifiedTypeName name="java.util.Objects"/>
-    <fullyQualifiedTypeName name="java.util.function.Supplier"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="randomNumber"/>
-    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
-    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
-    <fullyQualifiedTypeName name="java.util.function.Function"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 </qualifiedTypeNameHistroy>

@@ -12,5 +12,6 @@ public class Sub extends Super {
 	/* no possibility of an implementation of print here*/
 //	void print() {
 //	   System.out.println("cannot do this");
-//	}	
+//	}
+	
 }

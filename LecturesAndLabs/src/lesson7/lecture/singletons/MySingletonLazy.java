@@ -10,6 +10,5 @@ public class MySingletonLazy{
 		}
 		return instance;
 	}
-	
-	
+
 }

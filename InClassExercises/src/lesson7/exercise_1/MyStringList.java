@@ -59,8 +59,5 @@ public class MyStringList implements StringList {
 		if(size > 0)
 		   sb.append(strArray[size - 1] + "]");
 		return sb.toString();
-	}
-
-
-	
+	}	
 }

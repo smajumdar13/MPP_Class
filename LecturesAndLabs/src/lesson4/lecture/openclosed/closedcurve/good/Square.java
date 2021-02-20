@@ -10,4 +10,6 @@ public final class Square extends ClosedCurve {
 	public double computeArea() {
 		return side * side;
 	}
+
+
 }

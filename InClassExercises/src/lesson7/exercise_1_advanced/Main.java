@@ -27,8 +27,9 @@ public class Main {
 		}
 		System.out.println("\n==================\n");
 		//for each style
-		for(String str : l) {
-			System.out.println(str.toString());
-		}
+//		for(String str : l) {
+//			System.out.println(str.toString());
+//		}
+		l.forEach(System.out::println);
 	}
 }

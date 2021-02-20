@@ -1,5 +1,6 @@
 package lesson3.lecture.composition1.oldinheritanceway;
 
+
 public class Person {
 
 	private String name;

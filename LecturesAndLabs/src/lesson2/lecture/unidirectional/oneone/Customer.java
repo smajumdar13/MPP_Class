@@ -13,8 +13,4 @@ public class Customer {
 	public ShoppingCart getCart() {
 		return cart;
 	}
-	
-	public String toString() {
-		return name +"\nItems: " + cart;
-	}
 }

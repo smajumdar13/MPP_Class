@@ -34,6 +34,7 @@ public class EmployeeInfo {
 	 * Tests to see if solution is correct
 	 * What's wrong here?
 	 */
+	@SuppressWarnings("serial")
 	public static void main(String[] args) {	
 		List<Employee> list = new ArrayList<Employee>() {
 			{
@@ -62,6 +63,8 @@ public class EmployeeInfo {
 		
 		//List with duplicates removed - correctly computed
 		List<Employee> dupsRemoved = new ArrayList<Employee>() {
+
+
 			{
 				add(new Employee("Richard", 55000));
 				add(new Employee("John", 30000));

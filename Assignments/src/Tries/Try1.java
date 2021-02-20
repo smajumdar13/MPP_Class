@@ -1,6 +1,7 @@
 package Tries;
 
 import java.util.Arrays;
+import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 
 public class Try1 {
@@ -30,7 +31,11 @@ public class Try1 {
 //		System.out.println(sum);
 		
 		var sum1 = IntStream.of(1,2,3).sum();
+		var first = IntStream.of(2,3,4).findFirst();
+		var duble = DoubleStream.of(3,4).max();
 		System.out.println(sum1);
+		System.out.println(first);
+		System.out.println(duble);
 		
 	}
 }

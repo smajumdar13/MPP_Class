@@ -32,7 +32,7 @@ public class Main {
 			e2.addAccount(someSavingsAccounts[1]);
 			e3.addAccount(someSavingsAccounts[2]);
 		
-		List<Employee> employees = new ArrayList<>();
+		List<Employee> employees = new ArrayList<Employee>();
 		employees.add(e1);
 		employees.add(e2);
 		employees.add(e3);

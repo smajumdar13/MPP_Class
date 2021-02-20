@@ -43,7 +43,6 @@ public class Main {
 		else { //"C"
 			handleWithdrawals();
 		}
-		sc.close();
 	}
 	void handleReports() {
 		System.out.println(getAllAccounts());
@@ -80,7 +79,6 @@ public class Main {
 		System.out.println("$"+amount+
 				" has been deposited in the "+n+name+" account of "+ emps[empChoice].getName());
 		
-		sc.close();
 		
 	}
 	void handleWithdrawals() {
@@ -121,7 +119,6 @@ public class Main {
 			System.out.println("Amount $"+amount+" exceeds the current balance of the "+n+name+
 					" account of "+emps[empChoice].getName());
 		}
-		sc.close();
 		
 		
 	}	

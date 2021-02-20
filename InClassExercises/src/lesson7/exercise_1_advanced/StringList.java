@@ -3,12 +3,12 @@ package lesson7.exercise_1_advanced;
 public interface StringList {
 	//uncomment these
 	
-//	abstract String[] strArray();
-//	abstract int size();
-//	abstract void setSize(int val);
-//	abstract void resize();
-//	abstract void overwrite(String val, int pos);
-//	abstract boolean copy(int pos1, int pos2);
+	abstract String[] strArray();
+	abstract int size();
+	abstract void setSize(int val);
+	abstract void resize();
+	abstract void overwrite(String val, int pos);
+	abstract boolean copy(int pos1, int pos2);
 	
 	/** Adds a string to the end of the list */
 	public void add(String s) ;

@@ -17,6 +17,6 @@ public class Customer {
 	}
 	
 	public String toString() {
-		return name + ": " + cart;
+		return name + ": " + cart.toString();
 	}
 }

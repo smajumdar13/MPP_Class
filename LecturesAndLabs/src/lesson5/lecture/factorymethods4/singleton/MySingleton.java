@@ -17,3 +17,5 @@ public class MySingleton {
 		System.out.println(MySingleton.countInstances);
 	}
 }
+
+

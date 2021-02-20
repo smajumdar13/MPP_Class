@@ -14,4 +14,7 @@ public class PersonWithJob  {
 		person = new Person(n);
 		salary = s;
 	}
+	
+
+
 }

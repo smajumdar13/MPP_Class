@@ -24,19 +24,17 @@ public class IntArrayExample {
 				                         .map(Arrays::toString)
 				                         .collect(Collectors.toList());
 		System.out.println(intArrsStr);
-		System.out.println(intArrs);
-		
 	}
 	
-//	public static void infStream() {
-//		List<int[]> intArrs = Stream.iterate(Integer.valueOf(1), n -> n+1).limit(4)
-//				.map(x -> x.intValue())
-//                .map(int[]::new)
-//                .collect(Collectors.toList());
-//
-//		List<String> intArrsStr = intArrs.stream().map(Arrays::toString).collect(Collectors.toList());
-//		System.out.println(intArrsStr);	
-//	}
+	public static void infStream() {
+		List<int[]> intArrs = Stream.iterate(Integer.valueOf(1), n -> n+1).limit(4)
+				.map(x -> x.intValue())
+                .map(int[]::new)
+                .collect(Collectors.toList());
+
+		List<String> intArrsStr = intArrs.stream().map(Arrays::toString).collect(Collectors.toList());
+		System.out.println(intArrsStr);	
+	}
 	
 	
 	

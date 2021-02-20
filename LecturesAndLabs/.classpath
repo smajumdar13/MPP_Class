@@ -2,10 +2,13 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_281">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Majumdar7356/Desktop/MIU/CS401-Okalu/workspace-eclipse-for-students/MPP_Class/LecturesAndLabs/external-libs/mysql-connector-java-8.0.20.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Majumdar7356/Desktop/MIU/CS401-Okalu/workspace-eclipse-for-students/MPP_Class/LecturesAndLabs/external-libs/derbyclient.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/DataAccess"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

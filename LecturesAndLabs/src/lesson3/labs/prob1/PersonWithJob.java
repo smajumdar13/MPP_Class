@@ -26,12 +26,7 @@ public class PersonWithJob extends Person {
 		Person p2 = new Person("Joe");
 		//As PersonsWithJobs, p1 should be equal to p2
 		System.out.println("p1.equals(p2)? " + p1.equals(p2));
-		// while comparing p1 with p2, the boolean function isEqual 
-		// compares the name and salary of both objects, where p2 doesnot
-		// have a salary, and thus returns false
 		System.out.println("p2.equals(p1)? " + p2.equals(p1));
-		// while comparing p2 with p1, equals function compares the names
-		// of the objects, where both return equal, and thus print true
 	}
 
 

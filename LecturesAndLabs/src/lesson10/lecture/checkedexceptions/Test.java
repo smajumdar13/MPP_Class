@@ -18,9 +18,6 @@ public class Test {
 	//First way - declare throws
 	public void write1(File f) throws IOException {
 		PrintWriter w = new PrintWriter(f);
-		
-		
-		w.close();
 	}
 	
 	//Second way - handle directly
@@ -28,7 +25,6 @@ public class Test {
 		try {
 			PrintWriter w = new PrintWriter(f);
 			//do something
-			w.close();
 		} catch(IOException e) {
 			System.out.println("Something bad happened...");
 		}
@@ -39,7 +35,6 @@ public class Test {
 		try {
 			PrintWriter w = new PrintWriter(f);
 			//do something
-			w.close();
 		} catch(IOException e) {
 			Logger log = Logger.getLogger("");
 			log.warning("IOException thrown in Test.write3 method. File is " + f.getAbsolutePath());
@@ -51,7 +46,6 @@ public class Test {
 		try {
 			PrintWriter w = new PrintWriter(f);
 			//do something
-			w.close();
 		} catch(IOException e) {
 			throw new MyException(e);
 		}
@@ -68,6 +62,5 @@ public class Test {
 			super(t);
 		}
 	}
-	
 
 }
