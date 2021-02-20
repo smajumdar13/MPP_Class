@@ -37,6 +37,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Majumdar7356\Desktop\MIU\CS401-Okalu\workspace-eclipse-for-students\MPP_Class"/>
 			<item value="C:\Users\Majumdar7356\Downloads\Compressed\startupCodeLab9Part1.zip"/>
 			<item value="C:\Users\Majumdar7356\Downloads\Compressed\mpp.assignment.lab.all"/>
 			<item value="C:\Users\Majumdar7356\Downloads\Compressed\mpp.assignment.lab.all.zip"/>
