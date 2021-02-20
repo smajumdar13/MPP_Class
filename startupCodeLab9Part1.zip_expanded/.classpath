@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="startupCodeLab9Part1/prob1/Project4_Students/src"/>
-	<classpathentry kind="output" path="startupCodeLab9Part1/prob1/Project4_Students/bin"/>
-</classpath>
