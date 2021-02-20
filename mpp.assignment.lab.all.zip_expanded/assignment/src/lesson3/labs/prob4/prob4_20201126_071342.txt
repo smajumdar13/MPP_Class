@@ -1,6 +1,0 @@
-WARNING - 07:13:42: First conversion pass
-ERROR - 07:13:42: java.net.MalformedURLException: unknown protocol: pathmap
-WARNING - 07:14:20: Convert lesson3.labs.prob4
-WARNING - 07:14:20: First conversion pass
-ERROR - 07:14:20: org.xml.sax.SAXParseExceptionpublicId: /assignment/src/lesson3/labs/prob4/Address.java; systemId: file:///assignment/src/lesson3/labs/prob4/Address.java; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
-ERROR - 07:14:20: org.xml.sax.SAXParseExceptionpublicId: /assignment/src/lesson3/labs/prob4/Address.java; systemId: file:///assignment/src/lesson3/labs/prob4/Address.java; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
