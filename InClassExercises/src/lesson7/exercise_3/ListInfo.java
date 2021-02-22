@@ -18,5 +18,6 @@ public class ListInfo {
 		list.add("C");
 		
 		//use java8 foreach to copy all list elements into strList
+		list.forEach(System.out::println);
 	}
 }

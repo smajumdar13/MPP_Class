@@ -8,11 +8,15 @@ public class Person {
 		this.name = n;	
 	}
 	
-	public boolean equals(Person aPerson) {
-		if(aPerson == null) return false; 
-		//if(!(aPerson instanceof Person)) return false;
-		Person p = (Person)aPerson;
-		boolean isEqual = this.name.equals(p.name);
+	public boolean equals(Person p) {
+		if(p == null) return false; 
+//		we haven't checked if p is an instance of object Person
+//		so we need to implement the instanceOf strategy or the 
+//		same-class strategy like below
+//		*uncomment below line*		
+//		if(!(p instanceof Person)) return false;
+		Person q = (Person)p;
+		boolean isEqual = this.name.equals(q.name);
 		return isEqual;
 	}
 	
