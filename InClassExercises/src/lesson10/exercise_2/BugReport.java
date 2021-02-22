@@ -8,8 +8,8 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 public @interface BugReport {
-	String assignedTo() default "[none]";
-	int severity() default 0;
+	String assignedTo() default "Sam";
+	int severity() default 3;
 }
 
 
