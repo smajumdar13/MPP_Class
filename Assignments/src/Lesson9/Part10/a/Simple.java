@@ -1,4 +1,4 @@
-package Lesson9.Part10a;
+package Lesson9.Part10.a;
 
 public class Simple {
 	boolean flag = false;

@@ -18,7 +18,7 @@ public class Main {
 		                  new Employee("Donald", "Trump", 100000));
 		
 		  System.out.println(emps.stream().filter(s -> s.salary>100000 
-				  && s.lastName.charAt(0)>78 && s.lastName.charAt(0)<=90)
+				  && s.lastName.charAt(0)>78 && s.lastName.charAt(0)<=90) // can use charAt(0) > 'M' and <= 'Z'
 				  .map(n -> n.firstName +" " +  n.lastName)
 				  .sorted().collect(Collectors.toList()));
 				               

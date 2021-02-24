@@ -1,0 +1,38 @@
+List<Employee> sortedList = list.stream().sorted(Comparator.comparing(Employee::getName)
+								.thenComparing(Employee::getSalary, Comparator.reverseOrder()))
+								.collect(Collectors.toList());
+								
+List<OrderItem> items = orders.stream().flatMap(ord -> ord.getOrderItems().stream())
+							.collect(Collectors.toList());
+							
+Consumer<String> c = new Consumer<String>() {
+	public void accept(String t) {
+		System.out.println(t.toUpperCase());
+	}
+};
+list.forEach(c);
+
+Tri-function:
+@FunctionalInterface
+public interface TriFunction<S,T,U,R> {
+	R apply(S s, T t, U u);
+}
+Main method:
+	System.out.println(emps.stream().filter(s -> s.salary>100000 && s.lastName.charAt(0)>78 
+						&& s.lastName.charAt(0)<=90).map(n -> n.firstName +" " +  n.lastName)
+				  		.sorted().collect(Collectors.toList()));
+
+Stream iterator:
+	final Stream<Integer> primes = Stream.iterate(2,Main::nextPrime);
+	
+Filter commons from two lists:
+	return list1.stream().distinct().filter(list2::contains).collect(Collectors.toList());
+	
+Special filters:
+	return list.stream().filter(c -> c.getCity().length()>=6 && !c.getCity().contains("e"))
+				.map(z -> z.getZip()).distinct().sorted().collect(Collectors.toList());
+				
+// require Optional for the exams
+// require Iterate
+// print cubes in exam Lesson9 part9
+// 
