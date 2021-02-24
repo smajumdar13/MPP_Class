@@ -7,7 +7,6 @@ public class Main {
 
 	public static void main(String[] args) {
 		Stream<String> streamString = Stream.of("Bill", "Thomas", "Mary");
-		System.out.println(streamString.collect(Collectors.toList()));
+		System.out.println(streamString.collect(Collectors.joining(", ")));
 	}
-// need to work on it
 }

@@ -16,7 +16,8 @@ public class Main {
 		                  new Employee("Alice", "Richards", 101000),
 		                  new Employee("Donald", "Trump", 100000));
 		
-		
+
+		System.out.println(LambdaLibrary.SALARY_NAME.apply(list, 101000, Character.valueOf('M')));
 	}
 
 }

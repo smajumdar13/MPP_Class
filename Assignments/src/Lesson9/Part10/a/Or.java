@@ -6,8 +6,9 @@ public class Or {
 
 	public static void main(String[] args) {
 		List<Simple> list = Arrays.asList(new Simple(false), new Simple(false), new Simple(true));
-//		someSimpleIsTrueReduce(list);
-//		someSimpleIsTrue(list);
+		Or print = new Or();
+		System.out.println(print.someSimpleIsTrue(list));
+		System.out.println(print.someSimpleIsTrueReduce(list));
 	}
 	
 	public boolean someSimpleIsTrue(List<Simple> list) {

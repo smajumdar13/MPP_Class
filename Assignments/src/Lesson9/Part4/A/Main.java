@@ -10,8 +10,8 @@ public class Main {
 		
 		final Stream<Integer> primes = Stream.iterate(2,Main::nextPrime );
 
-		primes.limit(20).collect(Collectors.toList()).forEach(System.out::println);
-		//primes.limit(5).collect(Collectors.toList()).forEach(System.out::println);
+//		primes.limit(20).collect(Collectors.toList()).forEach(System.out::println);
+		primes.limit(5).collect(Collectors.toList()).forEach(System.out::println);
 
 	}
 	public static int nextPrime(int seed) {
