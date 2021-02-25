@@ -6,10 +6,17 @@ import java.util.*;
 public class Reverse {
 	//Fix this code using a helper method to capture the wildcard
 	public static void reverse(List<?> list) {   
-		List<Object> tmp = new ArrayList<Object>(list);   
-		for (int i = 0; i < list.size(); i++) { 
-	      //list.set(i, tmp.get(list.size() - i - 1)); //compiler error
-	   } 
+//		List<Object> tmp = new ArrayList<Object>(list);   
+//		for (int i = 0; i < list.size(); i++) { 
+//	      //list.set(i, tmp.get(list.size() - i - 1)); //compiler error
+//	   } 
+		reverseHelper(list);
+	}
+	public static <T> void reverseHelper(List<T> list) {
+		List<T> tmp = new ArrayList<T>(list);
+		for(int i=0; i< list.size(); i++) {
+			list.set(i,  tmp.get(list.size()-i-1));
+		}
 	}
 	
 	//Test your code with this main method

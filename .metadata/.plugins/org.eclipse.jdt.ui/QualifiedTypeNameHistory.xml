@@ -11,8 +11,21 @@
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="jUnitIntro.ArithmeticOps"/>
     <fullyQualifiedTypeName name="junit.framework.Assert"/>
-    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
-    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.IntSummaryStatistics"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="javafx.scene.image.ImageView"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.Background"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.BackgroundImage"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="javafx.fxml.FXMLLoader"/>
+    <fullyQualifiedTypeName name="javafx.scene.Parent"/>
+    <fullyQualifiedTypeName name="javafx.fxml.FXML"/>
+    <fullyQualifiedTypeName name="java.awt.Button"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionEvent"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="javafx.fxml.Initializable"/>
 </qualifiedTypeNameHistroy>
