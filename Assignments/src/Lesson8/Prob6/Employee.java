@@ -1,4 +1,4 @@
-package Lesson8.Prob6.One;
+package Lesson8.Prob6;
 
 public class Employee {
 	String name;

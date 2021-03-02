@@ -29,6 +29,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Majumdar7356\Desktop\mpp\Project"/>
+			<item value="C:\Users\Majumdar7356\Desktop\MIU\CS401-Okalu\PulledFiles\PROJECT-MPP"/>
+			<item value="C:\Users\Majumdar7356\Desktop\MIU\CS401-Okalu\workspace-eclipse-for-students\MPP_Class\application"/>
+			<item value="C:\Users\Majumdar7356\Desktop\MIU\CS401-Okalu\workspace-eclipse-for-students\MPP_Class\airlineReservationSystem"/>
 			<item value="C:\Users\Majumdar7356\Desktop\Lesson10"/>
 			<item value="C:\Users\Majumdar7356\Desktop\lesson10"/>
 			<item value="C:\Users\Majumdar7356\Desktop\MIU\CS401-Okalu\workspace-eclipse-for-students\MPP_Class"/>
