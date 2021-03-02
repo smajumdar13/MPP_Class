@@ -1,3 +1,6 @@
 1. It returns a compiler error, and a method of an interface has to be Overridden or converted to static.
 
 2. Compiler error again. Either the method has to be implemented in Iface2, or overridden.
+
+3. 4 is printed to the console, as the static method in Iface2 is implemented within the interface, and is not implemented by the subclass
+	being static method, whereas the subclass inherits the default method from Iface1.

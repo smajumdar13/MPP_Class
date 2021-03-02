@@ -1,4 +1,4 @@
-package lesson7.exercise_3;
+package ConsumerTest;
 
 import java.util.*;
 
@@ -15,7 +15,9 @@ public class MyStringList implements Iterable<String> {
 		size = x;
 	}
 	
+	
 	//implementations of interface methods
+	
 	public void add(String s) {
 		if (size == strArray.length)
 			resize();
@@ -50,6 +52,7 @@ public class MyStringList implements Iterable<String> {
 		System.arraycopy(strArray, pos, temp, pos + 1, strArray.length - pos);
 		strArray = temp;
 		++size;
+
 	}
 
 	public boolean remove(String s) {
@@ -102,6 +105,8 @@ public class MyStringList implements Iterable<String> {
 		strArray = temp;
 	}
 
+	
+
 	public String toString() {
 		StringBuilder sb = new StringBuilder("[");
 		for (int i = 0; i < size - 1; ++i) {
@@ -146,6 +151,8 @@ public class MyStringList implements Iterable<String> {
 		/** optional -- not necessary to implement */
 		public void remove() {
 			// not implemented
+
 		}
+		
 	}
 }

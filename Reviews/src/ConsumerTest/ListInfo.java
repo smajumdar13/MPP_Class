@@ -1,4 +1,4 @@
-package lesson7.exercise_3;
+package ConsumerTest;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,8 +22,9 @@ public class ListInfo {
 //		list.forEach(e -> System.out.println(e));
 		
 		// using Consumer
-		MyConsumer c = new MyConsumer(strList);
-		list.forEach(c);
+		MyConsumer mc = new MyConsumer(strList);
+		list.forEach(mc);
 		System.out.println(strList);
+//		strList.forEach(System.out::println);
 	}
 }
