@@ -10,7 +10,7 @@ public class Main {
 		l.add("Susan");
 		l.add("Mark");
 		l.add("Dave");
-		System.out.println("Element at position 2: " + l.get(5));
+		System.out.println("Element at position 2: " + l.get(1));
 		System.out.println("The list: " + l);
 		
 	}

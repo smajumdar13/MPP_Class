@@ -30,5 +30,6 @@ public class SampleController {
     @FXML
     void press(ActionEvent event) {
     	btnP.setText("Pressed");
+    	System.out.println("Button has been pressed!");
     }
 }

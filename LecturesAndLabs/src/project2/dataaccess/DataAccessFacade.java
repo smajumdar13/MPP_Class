@@ -72,7 +72,7 @@ public class DataAccessFacade implements DataAccess {
 	
 	public void saveNewPeriodical(Periodical periodical) {
 		HashMap<Pair<String, Integer>, Periodical> periodMap = readPeriodicalsMap();
-		Pair<String, Integer> periodKey = new Pair(periodical.getTitle(), periodical.getIssueNumber());
+		Pair<String, Integer> periodKey = new Pair<String, Integer>(periodical.getTitle(), periodical.getIssueNumber());
 		periodMap.put(periodKey, periodical);
 		periodicals = periodMap;
 		saveToStorage(StorageType.PERIODICALS, periodMap);	

@@ -27,6 +27,7 @@ public class Test {
 			//do something
 		} catch(IOException e) {
 			System.out.println("Something bad happened...");
+			
 		}
 		
 	}

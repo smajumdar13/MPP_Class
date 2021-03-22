@@ -119,7 +119,7 @@ public class Main {
 			System.out.println("Amount $"+amount+" exceeds the current balance of the "+n+name+
 					" account of "+emps[empChoice].getName());
 		}
-		
+		sc.close();
 		
 	}	
 	

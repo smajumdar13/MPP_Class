@@ -1,0 +1,135 @@
+Full Name:	CS401 MPP – Final Exam	December 2020
+
+Note: You can answer on the exam paper or on a separate sheet of blank paper.
+1. [10 points] – Explain how the “Diamond Problem” is solved in Java 8 (context is multiple inheritance).
+
+
+2. [10 points] – What is a Functor? What is a Closure? Explain enough so that I know that you know!
+
+
+
+3. [5 points] – What is a “Free Variable” in the context of functional programming?
+
+
+
+4. [5 points] – In the context of generic programming, what is Type Erasure?
+
+
+
+Programming Section
+5. [10 points] – What is the “type” of the following lambdas? (lambda refers to the lambda equivalent of the “method reference(s)” below)
+a) enrollments.parallelStream()
+.filter(Enrollment::isValid)
+            .map(enrollment -> enrollment.getCourseOffering().getCourse()) Stream<T> filter(Predicate<? super T> predicate) Stream<R> map(Function<? super T,? extends R> mapper)
+
+Type of Enrollment::isValid is:
+Type of enrollment -> enrollment.getCourseOffering().getCourse() is:
+
+b) Comparator<LocalDate> comparator = Comparator.comparing(AcademicBlock::getStartDate);
+
+
+pg. 1
+
+Full Name:	CS401 MPP – Final Exam	December 2020
+
+Hint: static <T,U extends Comparable<U>> Comparator<T> comparing(Function<T, U> keyExtractor)
+
+
+Type of AcademicBlock::getStartDate is:
+
+
+pg. 2
+
+Full Name:	CS401 MPP – Final Exam	December 2020
+
+6. [10 points] – Write the “lambda” equivalent of the following code:
+public class EmployeeSalaryComparator implements Comparator<Employee> { @Override
+public int compare(Employee e1, Employee e2) {
+if(e1.salary == e2.salary) return 0; else if(e1.salary < e2.salary) return -1; else return 1;
+}
+}
+
+
+Comparator<Employee> employeeSalaryComparator = (e1, e2) -> {
+if(e1.salary == e2.salary) return 0; else if(e1.salary < e2.salary) return -1; else return 1;
+};
+
+Comparator<Employee> employeeSalaryComparator = Comparator.comparing(Employee::getSalary); Comparator<Employee> employeeSalaryComparator = (e1, e2) -> e1.salary.compareTo(e2.salary);
+
+
+
+pg. 3
+
+Full Name:	CS401 MPP – Final Exam	December 2020
+
+7. [20 points] – Re-write the following code using lambdas, method references and streams:
+
+public boolean isEnrolledInAnyCSCourses() { // other than FPP or MPP boolean result = false;
+for(Enrollment enrollment : enrollments) { if(enrollment.isValid()) {
+      Course course = enrollment.getCourseOffering().getCourse();
+if(!course.isFPP() && !course.isMPP()) { if(course.isCS()) {
+result = true; break;
+}
+}
+}
+}
+return result;
+}
+Note: Domain objects here are: Enrollment, CourseOffering and Course.
+
+return enrollments.stream()
+      .filter(Enrollment::isValid) // .filter(enrollment -> enrollment.isValid())
+.map(enrollment -> enrollment. .getCourseOffering().getCourse())
+.filter(course -> !course.isFPP())
+.filter(course -> !course.isMPP())
+.filter(course -> course.isCS()) // filter(Course::isCS)
+.findAny()
+.isPresent();
+
+
+return enrollments.stream()
+      .filter(Enrollment::isValid) // .filter(enrollment -> enrollment.isValid())
+.map(enrollment -> enrollment.getCourseOffering())
+.map(courseOffering -> counrseOffering.getCourse())
+
+pg. 4
+
+Full Name:	CS401 MPP – Final Exam	December 2020
+
+.anyMatch(course -> !course.isFPP() && ! !course.isMPP() && course.isCS());
+
+
+
+pg. 5
+
+Full Name:	CS401 MPP – Final Exam	December 2020
+
+Given the UML class diagram below, anwer the questions that follow:
+
+
+Assuming the following methods:
+public List<Student> filterList(List<Student> list, Predicate<Student> predicate) {
+return list.stream().filter(predicate).collect(Collectors.toList());
+}
+
+public List<Country> filterList(List<Student> list, Function<Student, Country> mapper) {
+return list.stream().map(mapper).distinct().collect(Collectors.toList());
+}
+
+8. [10 points] – Write a lambda expression that could be passed to the first method that would return a list of all students who belong to a country whose population is more than 100,000,000.
+Predicate<Student> predicate = student -> student.getAddress().getCountry().getPopulation() > 100000000;
+
+
+9. [10 points] – Write a lambda expression that could be passed to the first method that would return a list of all students who live in Fairfield, Iowa.
+Predicate<Student> predicate = student -> “Iowa”.equalsIgnoreCase(student.getAddress().getState()) && “Fairfield”.equalsIgnoreCase(student.getAddress().getCity());
+
+Predicate<Student> predicate = student -> student.getAddress().getState().equals(“Iowa”) && student.getAddress().getCity().equals(“Fairfield”);
+
+10. [10 points] – Write a lambda expression that could be passed to the second method that would return a list of unique countries represented by all students.
+
+Function<Student, Country> mapper = student -> student.getAddress().getCountry();
+
+
+Note:
+* Assume that all classes have standard getters and setters for all attributes.
+* Only write the lambda expression.

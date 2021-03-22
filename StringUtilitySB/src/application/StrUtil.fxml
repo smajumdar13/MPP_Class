@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StrUtilController">
+   <center>
+      <Pane prefHeight="350.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="in" layoutX="250.0" layoutY="104.0" prefHeight="47.0" prefWidth="186.0" promptText="Input" />
+            <Button fx:id="count" layoutX="35.0" layoutY="67.0" mnemonicParsing="false" onAction="#click" prefHeight="37.0" prefWidth="177.0" text="Count Letters">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <TextField fx:id="out" layoutX="250.0" layoutY="188.0" prefHeight="47.0" prefWidth="186.0" promptText="Output" />
+            <Button fx:id="reverse" layoutX="35.0" layoutY="151.0" mnemonicParsing="false" onAction="#click" prefHeight="37.0" prefWidth="177.0" text="Reverse Letters">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="dups" layoutX="35.0" layoutY="235.0" mnemonicParsing="false" onAction="#click" prefHeight="37.0" prefWidth="177.0" text="Remove Duplicates">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

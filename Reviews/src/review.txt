@@ -1,0 +1,41 @@
+Q15 - A is incorrect. Because of covariance. (In Java, List of subtypes is not covariant). But Array of subtype is covariant.
+
+Q13 - java.util.invokable
+
+Q12 - False. Because try-with-resources will automatically close the resources(e.g. Filereader etc or any type that implements the AutoCloseable).
+
+Q11 - False. Because List<?> is unbounded wildcard parameterized/generic type which does not allow adding or getting.
+
+Q10 - The two advantages are: i) backward compatibility, ii) maintain reduced number of types (unlike in C++'s implementation).
+
+Q09 - (c) -> System.out.println(c) => i) Rewrite using method reference syntax => System.out::println
+
+                                     ii) State what type of method reference it is => object::instanceMethod (not Class::instanceMethod, Class::staticMethod,
+														  Class::new)
+                                    iii) Assign it to a type and give it a name. Then call/invoke it using the argument, "hello" => 
+					 Consumer<String> greeting = (c) -> System.out.println(c);
+					 greeting.accept("hello");
+
+Q08 - The Optional class helps us handle Null values more safely and efficiently. For example:
+      Person p = null;
+      Optional.ofNullable(person);
+
+Q06 - "Referential Transparency" means there is no side-effect with the use of a pure function. Other features of functional programming are:
+      function can be treated as first class citizen (w FP, function can be treated like an object) -> make a functor of a function to pass it as an object for    
+      implementation, benefits include more concise, threadsafe, etc., declarative style of programming, and support for Higher-Order Function(HOF), e.g. reduce,
+      map, filter, etc.
+
+Q05 - False. Because, parallel streams mostly offer better performance when working with a large dataset, otherwise sequential streams are preferable/performant
+      enough.
+
+Q16 - When implementing UI code for your JavaFX application, the following code snippet is okay. True or False. And say why.
+      class MyBankingApp extends Application {
+		public MyBankingApp(){
+			Stage window = new Stage();
+			Scene scene = new Scene(root, 480, 640);
+			window.setScene(scene);
+			window.show();
+		}
+      }
+
+      False. Because the code should be in stack method.

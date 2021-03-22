@@ -26,8 +26,8 @@ public class Main {
 		
 		Pair lookup = new Pair("Joe", "Smith");
 		System.out.println(lookup.equals(key1));
-//		System.out.println(h.containsKey(lookup));
-//		System.out.println(h.get(lookup));
+		System.out.println(h.containsKey(lookup));
+		System.out.println(h.get(lookup));
 		
 	}
 

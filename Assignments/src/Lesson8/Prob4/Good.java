@@ -22,7 +22,7 @@ public class Good {
 	}
 	
 	
-	public static int countWords(List<String> words, char c, char d, int len) {
+	public static List<String> countWords(List<String> words, char c, char d, int len) {
 //		return (int) words.stream().filter(word -> word.length() == len && word.indexOf(c)>=0 && word.indexOf(d)==-1).count();
 		
 		return 
@@ -30,7 +30,6 @@ public class Good {
 					.filter(name -> name.contains(Character.toString(c)))
 					.filter(name -> !name.contains(Character.toString(d)))
 					.filter(name -> name.length() == len)
-					.collect(Collectors.toList())
-					.size();
+					.collect(Collectors.toList());
 	}
 }
